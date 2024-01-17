@@ -4,10 +4,9 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	faLinkedin,
+	faMedium
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -115,16 +114,6 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -135,22 +124,22 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.medium}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faInstagram}
+									icon={faMedium}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -182,7 +171,7 @@ const Homepage = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={article().link}
 										/>
 									</div>
 								))}

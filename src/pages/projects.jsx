@@ -44,16 +44,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Over the years, I've engaged in a diverse range of projects, each marking a significant step in my professional growth. Many of these initiatives are open-source, inviting collaboration and contributions from the wider community. I warmly encourage anyone interested in my work to delve into the code, propose enhancements, or share insights. I value collaborative learning and am always receptive to new perspectives and constructive feedback. This approach not only fosters my development but also strengthens the collective knowledge and innovation in the field.
 						</div>
 
 						<div className="projects-list">

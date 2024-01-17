@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -7,41 +7,64 @@ import "./styles/works.css";
 
 const Works = () => {
 	return (
-		<div className="works">
-			<Card
-				icon={faBriefcase}
-				title="Work"
-				body={
-					<div className="works-body">
-						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
-							<div className="work-subtitle">
-								Software Engineer
+		<>
+			<div className="works">
+				<Card
+					icon={faBriefcase}
+					title="Work"
+					body={
+						<div className="works-body">
+							<div className="work">
+								<img
+									src="./tlm.png"
+									alt="The Last Mile logo"
+									className="work-image"
+									/>
+								<div className="work-title">The Last Mile</div>
+								<div className="work-subtitle">
+									Web Development Apprenticeship
+								</div>
+								<div className="work-duration">Jun 2023 - Sept 2023</div>
 							</div>
-							<div className="work-duration">2019 - Present</div>
 						</div>
-
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
+					}
+					/>
+			</div>
+			<div className="works" style={{marginTop: "20px"}}>
+				<Card
+					icon={faGraduationCap}
+					title="Education"
+					body={
+						<div className="works-body">
+							<div className="work">
+								<img
+									src="./flatiron.png"
+									alt="Flatiron logo"
+									className="work-image"
+									/>
+								<div className="work-title">Flatiron School</div>
+								<div className="work-subtitle">
+									Certificate
+								</div>
+								<div className="work-duration">Sept 2023 - Dec 2023</div>
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work">
+								<img
+									src="./tlm.png"
+									alt="The Last Mile Logo"
+									className="work-image"
+									/>
+								<div className="work-title">The Last Mile</div>
+								<div className="work-subtitle">
+									Certificate
+								</div>
+								<div className="work-duration">March 2022 - Feb 2023</div>
+							</div>
 						</div>
-					</div>
-				}
-			/>
-		</div>
+					}
+					/>
+			</div>
+		</>
 	);
 };
 
