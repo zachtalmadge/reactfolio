@@ -48,7 +48,7 @@ const INFO = {
 				"Created a workout application to assist users in building custom exercise routines. This project utilized MySQL, Express, React, and Node.js, focusing on delivering a user-friendly experience for managing resistance exercises.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com/zachtalmadge/Roadie",
+			link: "https://github.com/zachtalmadge/EZ-Routines",
 		},
 
 		{
@@ -57,7 +57,7 @@ const INFO = {
 				"Developed an event-planning application for music festivals. This project involved using MongoDB, Express, React, and Node.js to enhance user experience in discovering events and learning about artists.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com/zachtalmadge/EZ-Routines",
+			link: "https://github.com/zachtalmadge/Roadie",
 		},
 	],
 };
